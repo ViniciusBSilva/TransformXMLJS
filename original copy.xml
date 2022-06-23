@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="trasnform.xsl"?> -->
+<MessageStatisticsQueryResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./MessageOverviewQuery.xsd">
+	<Result>
+		<Code>OK</Code>
+		<Details>LoadMessageOverviewData</Details>
+		<Text>Successfully&#x20;retrieved&#x20;data&#x20;for&#x20;Message&#x20;Overview&#x20;application.</Text>
+	</Result>
+	<Data>
+		<ColumnNames>
+			<Column>Sender&#x20;Partner</Column>
+			<Column>Sender&#x20;Component</Column>
+			<Column>Receiver&#x20;Partner</Column>
+			<Column>Receiver&#x20;Component</Column>
+			<Column>Interface</Column>
+			<Column>Interface&#x20;Namespace</Column>
+			<Column>Scenario&#x20;Identifier</Column>
+			<Column>Error</Column>
+			<Column>Scheduled</Column>
+			<Column>Successful</Column>
+			<Column>Terminated&#x20;with&#x20;error</Column>
+		</ColumnNames>
+		<DataRows>
+			<Row>
+				<Entry>Sender_Partner_1</Entry> <!--Sender Partner-->
+				<Entry>Sender_Component_1</Entry> <!--Sender Component-->
+				<Entry>Receiver_Partner_1</Entry> <!--Receiver Partner-->
+				<Entry>Receiver_Component_1</Entry> <!--Receiver Component-->
+				<Entry>Interface_1</Entry> <!--Interface-->
+				<Entry>Interface_Namespace_1</Entry> <!--Interface Namespace-->
+				<Entry>Scenario_Identifier_1</Entry> <!--Scenario Identifier-->
+				<Entry>1</Entry> <!--Error-->
+				<Entry>11</Entry> <!--Scheduled-->
+				<Entry>111</Entry> <!--Successful-->
+				<Entry>1111</Entry> <!--Terminated with error-->
+			</Row>
+			<Row>
+				<Entry>Sender_Partner_2</Entry> <!--Sender Partner-->
+				<Entry>Sender_Component_2</Entry> <!--Sender Component-->
+				<Entry>Receiver_Partner_2</Entry> <!--Receiver Partner-->
+				<Entry>Receiver_Component_2</Entry> <!--Receiver Component-->
+				<Entry>Interface_2</Entry> <!--Interface-->
+				<Entry>Interface_Namespace_2</Entry> <!--Interface Namespace-->
+				<Entry>Scenario_Identifier_2</Entry> <!--Scenario Identifier-->
+				<Entry>2</Entry> <!--Error-->
+				<Entry>22</Entry> <!--Scheduled-->
+				<Entry>222</Entry> <!--Successful-->
+				<Entry>2222</Entry> <!--Terminated with error-->
+			</Row>
+		</DataRows>
+	</Data>
+</MessageStatisticsQueryResults>
