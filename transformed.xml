@@ -1,0 +1,43 @@
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ColumnNames>
+        <Column>Sender Partner</Column>
+        <Column>Sender Component</Column>
+        <Column>Receiver Partner</Column>
+        <Column>Receiver Component</Column>
+        <Column>Interface</Column>
+        <Column>Interface Namespace</Column>
+        <Column>Scenario Identifier</Column>
+        <Column>Error</Column>
+        <Column>Scheduled</Column>
+        <Column>Successful</Column>
+        <Column>Terminated with error</Column>
+    </ColumnNames>
+    <DataRows>
+        <Row>
+            <Entry>Sender_Partner_1</Entry>
+            <Entry>Sender_Component_1</Entry>
+            <Entry>Receiver_Partner_1</Entry>
+            <Entry>Receiver_Component_1</Entry>
+            <Entry>Interface_1</Entry>
+            <Entry>Interface_Namespace_1</Entry>
+            <Entry>Scenario_Identifier_1</Entry>
+            <Entry>1</Entry>
+            <Entry>11</Entry>
+            <Entry>111</Entry>
+            <Entry>1111</Entry>
+        </Row>
+        <Row>
+            <Entry>Sender_Partner_2</Entry>
+            <Entry>Sender_Component_2</Entry>
+            <Entry>Receiver_Partner_2</Entry>
+            <Entry>Receiver_Component_2</Entry>
+            <Entry>Interface_2</Entry>
+            <Entry>Interface_Namespace_2</Entry>
+            <Entry>Scenario_Identifier_2</Entry>
+            <Entry>2</Entry>
+            <Entry>22</Entry>
+            <Entry>222</Entry>
+            <Entry>2222</Entry>
+        </Row>
+    </DataRows>
+</Data>
